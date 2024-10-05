@@ -1,4 +1,4 @@
-# Projeto MD Pixel Landing Page.
+# Projeto Calculadora IMC.
 
 📜 Minha Calculadora de IMC. Projeto para exercitar JavaScript
 
