@@ -1,0 +1,188 @@
+.btn{
+  display: inline-block;
+  background-color: $primary-dark;
+  padding: 12px 58px 12px 32px;
+
+  text-decoration: none;
+  color: $white-light;
+
+  border-radius: 12px;
+  border: 2px solid rgba(150, 246, 250, 0.1);
+
+  position: relative;
+
+  @include typeface-1(h8, desktop);
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+
+  &::after{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    transform: translate(-00%, -50%);
+
+    background-color: white;
+
+    transition: .7s ease;
+
+    background-image: url('../svg/icon-arrow.svg');
+    background-position: center center;
+    background-size: 80%;
+  }
+
+  &:hover{
+    transform: scale(1.05);
+    background-color: #0D969B;
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+
+    border: 2px solid rgba(150, 246, 250, 0.4);
+
+
+    &::after{
+      transform: translate(-00%, -50%) rotate(360deg);
+    }
+  }
+  
+}
+
+.btn-secondary{
+  display: inline-block;
+  background-color: transparent;
+  padding: 12px 40px;
+
+  text-decoration: none;
+  color: $white-light;
+
+  border-radius: 12px;
+  border: 2px solid $primary-dark;
+
+  @include typeface-1(h8, desktop);
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+  font-weight: 600;
+
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+  }
+  
+}
+
+
+.btn-white{
+  display: inline-block;
+  background-color: #fff;
+  padding: 12px 40px;
+
+  text-decoration: none;
+  color: $primary-dark;
+
+  border-radius: 12px;
+
+  box-shadow: 0px 4px 16px 0px rgba(12, 47, 49, 0.05);
+
+  @include typeface-1(h8, desktop);
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+  font-weight: 600;
+
+  &:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 4px 32px 0px rgba(12, 47, 49, 0.10);
+  }
+  
+}
+
+.btn-third{
+  display: inline-block;
+  background-color:rgba(255, 255, 255, 0.2);;
+  padding: 14px 40px;
+
+  text-decoration: none;
+  color: $primary-dark;
+
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+
+  @include typeface-1(h8, desktop);
+
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+
+  transition: .4s ease;
+  position: relative;
+
+  
+  &::after{
+    content: '';
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+
+    transform: translate(-00%, -50%);
+
+    background-color: white;
+
+    transition: .7s ease;
+
+    background-image: url('../svg/icon-arrow.svg');
+    background-position: center center;
+    background-size: 80%;
+  }
+
+
+  &:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+  }
+  
+}
+
+a{
+  text-decoration: none;
+  transition: .7s ease;
+
+  &:hover{
+    opacity: .8;
+  }
+}
+
+.link-footer{
+  text-decoration: none;
+  color: $black-light;
+  display: inline-block;
+
+  @include typeface-1(h8, desktop);
+  @include responsive(s) {
+    @include typeface-1(h8, mobile);
+  }
+  transition: .4s ease;
+
+  &:hover{
+    transform: translate3d(0px,-2px,0px);
+    text-shadow: 0px 4px 10px rgba(5, 30, 31, 0.30);
+  }
+}
+
