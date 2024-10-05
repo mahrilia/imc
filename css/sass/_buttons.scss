@@ -1,6 +1,6 @@
 .btn{
   display: inline-block;
-  background-color: $primary-dark;
+  background-color: #FF7AB3;
   padding: 12px 58px 12px 32px;
 
   text-decoration: none;
@@ -35,22 +35,17 @@
 
     transition: .7s ease;
 
-    background-image: url('../svg/icon-arrow.svg');
-    background-position: center center;
-    background-size: 80%;
+   
   }
 
   &:hover{
     transform: scale(1.05);
-    background-color: #0D969B;
-    box-shadow: 0px 4px 10px 0px rgba(5, 30, 31, 0.20);
+    background-color: #B4004D;
+    box-shadow: 0px 4px 10px 0px rgba(248, 216, 243, 0.2);
 
     border: 2px solid rgba(150, 246, 250, 0.4);
 
-
-    &::after{
-      transform: translate(-00%, -50%) rotate(360deg);
-    }
+ 
   }
   
 }

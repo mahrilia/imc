@@ -122,3 +122,12 @@
     pointer-events: none;
 }
 
+.gradient-bg{
+    height: 100vh; /* Ocupa a altura total da página */
+    background: linear-gradient(to bottom, #E8438A,  #82264D); /* Gradiente vertical */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
