@@ -52,14 +52,14 @@
 
 .btn-secondary{
   display: inline-block;
-  background-color: transparent;
+  background-color: #FF7AB3;
   padding: 12px 40px;
 
   text-decoration: none;
-  color: $white-light;
+  color: white;
 
   border-radius: 12px;
-  border: 2px solid $primary-dark;
+  border: none;
 
   @include typeface-1(h8, desktop);
   @include responsive(s) {
@@ -181,3 +181,27 @@ a{
   }
 }
 
+.input{
+  border-radius: 12px;
+  padding: 14px;
+  border: 0px;
+  outline: none;
+
+  
+  @include typeface-1(h8, desktop);
+@include responsive(s) {
+  @include typeface-1(h8, mobile);
+}
+  
+}
+
+input[type=number]::-webkit-outer-spin-button,
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Remover setas de incrementação no Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }

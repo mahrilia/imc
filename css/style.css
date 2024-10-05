@@ -7,7 +7,7 @@
 }
 
 .color-white {
-  color: #F7FFFF;
+  color: #FFC3DB;
 }
 
 .color-black {
@@ -38,7 +38,7 @@
   display: inline-block;
   padding: 4px 12px;
   border-radius: 4px;
-  color: #F7FFFF;
+  color: #FFC3DB;
 }
 
 .bg-black {
@@ -611,19 +611,19 @@ canvas {
 }
 
 .card {
-  background-color: #F7FFFF;
+  background-color: #FFC3DB;
   border-radius: 4px;
   transition: 0.5s ease;
 }
 
 .card-white {
-  background-color: #F7FFFF;
+  background-color: #FFC3DB;
   border-radius: 4px;
   transition: 0.5s ease;
 }
 
 .card-white-2 {
-  background-color: #F7FFFF;
+  background-color: #FFC3DB;
   border-radius: 8px;
   transition: 0.5s ease;
   box-shadow: 0px 8px 24px 0px rgba(4, 57, 60, 0.1);
@@ -1082,7 +1082,7 @@ canvas {
   left: 0;
   width: 30%;
   height: 100%;
-  background-color: #F7FFFF;
+  background-color: #FFC3DB;
   animation: bar-loading-hero 11.8s ease infinite;
 }
 
@@ -2390,7 +2390,7 @@ h3 {
   font-optical-sizing: auto;
   font-size: 56px;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   h3 {
@@ -2398,7 +2398,7 @@ h3 {
     font-optical-sizing: auto;
     font-size: 48px;
     line-height: 120%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2407,7 +2407,7 @@ h3 {
     font-optical-sizing: auto;
     font-size: 32px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 
@@ -2479,7 +2479,7 @@ h6 {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .h7 {
@@ -2487,7 +2487,7 @@ h6 {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 
@@ -2496,7 +2496,7 @@ h6 {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .h8 {
@@ -2504,7 +2504,7 @@ h6 {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 
@@ -2515,7 +2515,7 @@ p {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   p {
@@ -2523,7 +2523,7 @@ p {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2532,7 +2532,7 @@ p {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2546,7 +2546,7 @@ p {
   font-optical-sizing: auto;
   font-size: 28px;
   line-height: 120%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .p1 {
@@ -2554,7 +2554,7 @@ p {
     font-optical-sizing: auto;
     font-size: 24px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 @media screen and (max-width: 620px) {
@@ -2563,7 +2563,7 @@ p {
     font-optical-sizing: auto;
     font-size: 20px;
     line-height: 130%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2572,7 +2572,7 @@ p {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .p2 {
@@ -2580,7 +2580,7 @@ p {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2589,7 +2589,7 @@ p {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .p3 {
@@ -2597,7 +2597,7 @@ p {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2606,7 +2606,7 @@ p {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .p4 {
@@ -2614,7 +2614,7 @@ p {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2623,7 +2623,7 @@ p {
   font-optical-sizing: auto;
   font-size: 13px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   .p5 {
@@ -2631,7 +2631,7 @@ p {
     font-optical-sizing: auto;
     font-size: 13px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2646,7 +2646,7 @@ p {
 
 .bold {
   font-weight: bold;
-  color: #CEF1F2;
+  color: #FF94C2;
 }
 
 span {
@@ -2679,7 +2679,7 @@ strong {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 500;
+  font-weight: 400;
 }
 @media screen and (max-width: 960px) {
   strong {
@@ -2687,7 +2687,7 @@ strong {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2775,7 +2775,7 @@ html {
 
 body {
   width: 100%;
-  background-color: #E8F9FA !important;
+  background-color: #FFA4C8 !important;
 }
 body::-webkit-scrollbar {
   padding-right: 0px;
@@ -2788,7 +2788,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #F0237C;
-  border: 6px solid #E8F9FA;
+  border: 6px solid #FFA4C8;
 }
 
 .border {
@@ -2854,9 +2854,9 @@ nav {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 400;
   text-decoration: none;
-  color: #F7FFFF;
+  color: #FFC3DB;
   justify-content: space-between;
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 0.9);
 }
@@ -2866,7 +2866,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 400;
   }
 }
 
@@ -2997,7 +2997,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 140%;
-  font-weight: 500;
+  font-weight: 400;
 }
 .list .item-list:hover {
   padding-left: 56px;
@@ -3008,7 +3008,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 18px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 400;
     padding-left: 32px;
   }
   .list .item-list:hover {
@@ -3167,11 +3167,11 @@ nav {
 }
 
 .bg-icon-animation-white {
-  background-color: #E8F9FA;
+  background-color: #FFA4C8;
   transition: 0.5s ease;
 }
 .bg-icon-animation-white:hover {
-  background-color: #F7FFFF;
+  background-color: #FFC3DB;
   opacity: 0.8;
 }
 
@@ -3184,7 +3184,7 @@ nav {
   background-color: #FF7AB3;
   padding: 12px 58px 12px 32px;
   text-decoration: none;
-  color: #F7FFFF;
+  color: #FFC3DB;
   border-radius: 12px;
   border: 2px solid rgba(150, 246, 250, 0.1);
   position: relative;
@@ -3192,7 +3192,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
   transition: 0.4s ease;
 }
 @media screen and (max-width: 960px) {
@@ -3201,7 +3201,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .btn::after {
@@ -3225,17 +3225,17 @@ nav {
 
 .btn-secondary {
   display: inline-block;
-  background-color: transparent;
+  background-color: #FF7AB3;
   padding: 12px 40px;
   text-decoration: none;
-  color: #F7FFFF;
+  color: white;
   border-radius: 12px;
-  border: 2px solid #E8438A;
+  border: none;
   font-family: "Kanit", sans-serif;
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
   transition: 0.4s ease;
   font-weight: 600;
 }
@@ -3245,7 +3245,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .btn-secondary:hover {
@@ -3265,7 +3265,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
   transition: 0.4s ease;
   font-weight: 600;
 }
@@ -3275,7 +3275,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .btn-white:hover {
@@ -3295,7 +3295,7 @@ nav {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
   transition: 0.4s ease;
   position: relative;
 }
@@ -3305,7 +3305,7 @@ nav {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .btn-third::after {
@@ -3344,7 +3344,7 @@ a:hover {
   font-optical-sizing: auto;
   font-size: 16px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
   transition: 0.4s ease;
 }
 @media screen and (max-width: 960px) {
@@ -3353,12 +3353,44 @@ a:hover {
     font-optical-sizing: auto;
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .link-footer:hover {
   transform: translate3d(0px, -2px, 0px);
   text-shadow: 0px 4px 10px rgba(5, 30, 31, 0.3);
+}
+
+.input {
+  border-radius: 12px;
+  padding: 14px;
+  border: 0px;
+  outline: none;
+  font-family: "Kanit", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 300;
+}
+@media screen and (max-width: 960px) {
+  .input {
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: 300;
+  }
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remover setas de incrementação no Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 .logo-animate {
@@ -3396,7 +3428,7 @@ a:hover {
   font-optical-sizing: auto;
   font-size: 18px;
   line-height: 150%;
-  font-weight: 500;
+  font-weight: 300;
 }
 @media screen and (max-width: 960px) {
   .accordion-button {
@@ -3404,7 +3436,7 @@ a:hover {
     font-optical-sizing: auto;
     font-size: 16px;
     line-height: 150%;
-    font-weight: 500;
+    font-weight: 300;
   }
 }
 .accordion-button::before {

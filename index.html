@@ -7,31 +7,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="theme-color" content="#062526"/>
     <meta name="keywords" content="" />
-    <meta name="author" content="Nasser Yousef Ali" />
-    <meta name="title" content="MD Pixel">
-    <meta name="description" content="MD Pixel | Mídia Indoor">
+    <meta name="author" content="Marília Andrade" />
+    <meta name="title" content="Calculadora">
+    <meta name="description" content="Calculadora IMC">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--============ Title ============-->
-    <title>MD Pixel | Mídia Indoor</title>
+    <title>Calculadora IMC</title>
 
     <!--============ CSS ============-->
-    <link rel="icon" type="image/png" href="svg/favicon.png">
+    <link rel="icon" type="image/svg" href="svg/Icon-logo.svg">
     <link rel="stylesheet" href="css/style.css">
  
     <!--========== Open Graph / Facebook ===========-->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://mdpixel.com.br">
-    <meta property="og:title" content="MD Pixel | Mídia Indoor">
-    <meta property="og:description" content="MD Pixel | Mídia Indoor">
-    <meta property="og:image" content="svg/metatag-mdpixel.png">
+    <meta property="og:title" content="Calculadora IMC">
+    <meta property="og:description" content="Calculadora IMC">
+    <meta property="og:image" content="svg/icon-logo.svg">
 
     <!--=========== Twitter ===============-->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://mdpixel.com.br">
-    <meta property="twitter:title" content="MD Pixel | Mídia Indoor">
-    <meta property="twitter:description" content="MD Pixel | Mídia Indoora">
-    <meta property="twitter:image" content="svg/metatag-mdpixel.png">
+    <meta property="twitter:title" content="Calculadora IMC">
+    <meta property="twitter:description" content="Calculadora IMC">
+    <meta property="twitter:image" content="svg/icon-logo.svg">
 
     <!--============ JS ============-->
     <script src="js/svg-inject.min.js"></script>
@@ -89,21 +89,27 @@
         <div class="row">
             <div class="grid-2"></div>
             <div class="grid-8 flex-center flex-column">
-                <h6 class="uppercase h7 color-primary">MD pixel</h6>
-                <h3 class="text-center color-white mt-1">
-                    Soluções Completas de Mídia Indoor para Empresas Modernas
+                <img src="svg/Icon-logo.svg" alt="" class="icon">
+                <h6 class="uppercase h7 color-white mt-2">calculadora IMC</h6>
+                <h3 class="text-center mt-1" style="color: white;">
+                    Olá, digite seu peso e sua altura para saber o seu IMC
                 </h3>
-                <p class="text-center mt-4" style="max-width: 700px;">
-                    Na MD Pixel, oferecemos soluções 
-                    completas de mídia indoor que transformam 
-                    a comunicação da sua empresa. Desde TVs 
-                    corporativas até totens interativos, cobrimos 
-                    todas as suas necessidades de comunicação visual.
-                </p>
-                <div class="mt-4">
-                    <a href="https://wa.me//556198858280?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20MD%20Pixel." target="_blank" class="btn mr-3">Contato</a>
-                   
+                <div class="row">
+                    <div class="grid-1"></div>
+                    <div class="grid-10">
+                        <form action="" class="">
+                                <input type="number" id="peso" class="input mt-2 w-100" placeholder="Digite seu peso (kg)">
+                                <input type="number" id="altura" class="input mt-2 w-100" placeholder="Digite sua altura (m)">
+                            </form>
+                            <div class="mt-4">
+                                <a href="" target="_blank" class="btn-secondary w-100">Calcular</a>
+                               
+                            </div>
+                    </div>
+                    <div class="grid-1"></div>
+
                 </div>
+               
             </div>
             <div class="grid-2"></div>
         </div>
@@ -144,7 +150,7 @@
         document.addEventListener("DOMContentLoaded", () => {
 
             /*--=========== TIMELINE LOADING E HERO ============- */
-            var tl1 = gsap.timeline();
+            //var tl1 = gsap.timeline();
                 
                 tl1
                 .to('.screen-loading', {
